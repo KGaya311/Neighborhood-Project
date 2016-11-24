@@ -227,7 +227,7 @@ var ViewModel = function() {
         var articleList = self.articleSection;
 
         var nytimesUrl = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=' +
-            title + '&sort=newest&api-key=6c26ff1c9c85490ca191001dd6d9ffb7';
+            title + '&sort=newest&api-key=[API KEY]';
 
         console.log(nytimesUrl);
         self.articlesListed([]);
